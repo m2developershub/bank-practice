@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Bank of Learner</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-green-100">
+    <header>
+      <h1 class="text-6xl text-center mt-12 font-semibold">
+        <span class="text-purple-300">Welcome to</span>
+        <span class="font-bold text-purple-600">Bank of Learner</span>
+      </h1>
+    </header>
+    <main>
+      <section class="bg-green-200 w-2/4 my-12 rounded mx-auto">
+        <div class="text-center py-8">
+          <h2 class="text-3xl font-medium text-purple-600 mt-3 mb-6">
+            Please Login Here
+          </h2>
+          <input
+            class="
+              block
+              mb-5
+              w-4/5
+              border
+              rounded
+              py-1.5
+              px-2
+              bg-green-100
+              mx-auto
+            "
+            type="text"
+            name=""
+            id="user-input"
+            placeholder="Enter Your Email Here"
+          />
+          <input
+            class="
+              block
+              mb-6
+              w-4/5
+              border
+              rounded
+              py-1.5
+              px-2
+              bg-green-100
+              mx-auto
+            "
+            type="password"
+            name=""
+            id="user-password"
+            placeholder="Password"
+          />
+          <button
+            class="
+              mb-4
+              bg-purple-600
+              font-medium
+              text-xl text-white
+              px-4
+              py-1.5
+              rounded
+            "
+            id="user-submit"
+          >
+            Submit
+          </button>
+        </div>
+      </section>
+    </main>
+    <script src="js/login.js"></script>
+  </body>
+</html>
